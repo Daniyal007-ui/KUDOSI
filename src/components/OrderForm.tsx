@@ -17,7 +17,7 @@ const OrderForm = () => {
 
   useEffect(() => {
     if (quantity === 1) {
-      setPrice(89000);
+      setPrice(80000);
     } else if (quantity === 2) {
       setPrice(156500);
     } else if (quantity === 3) {
