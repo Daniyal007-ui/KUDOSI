@@ -19,9 +19,9 @@ const OrderForm = () => {
     if (quantity === 1) {
       setPrice(80000);
     } else if (quantity === 2) {
-      setPrice(2144000);
+      setPrice(144000);
     } else if (quantity === 3) {
-      setPrice(3192000);
+      setPrice(192000);
     } else {
       setPrice(quantity * 3999);  // For simplicity, assuming each extra piece costs 3999
     }
