@@ -11,7 +11,7 @@ const OrderForm = () => {
   });
  // const [city, setCity] = useState('');
   const [region, SetRegion] = useState('');
-  const [price, setPrice] = useState(3999);  // Default price for 1 piece
+  const [price, setPrice] = useState(80000);  // Default price for 1 piece
   const [status, setStatus] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);  // Track form submission status
 
@@ -163,9 +163,9 @@ const OrderForm = () => {
               required
               className="border p-2 rounded"
             >
-              <option value="1">1 Piece</option>
-              <option value="2">2 Pieces</option>
-              <option value="3">3 Pieces</option>
+              <option value="1">1 Piece/Tube</option>
+              <option value="2">2 Pieces/Tube</option>
+              <option value="3">3 Pieces/Tube</option>
             </select>
           </div>
 
