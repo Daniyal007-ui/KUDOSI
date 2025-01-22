@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <>
    
-    <div className="bg-gray-100 w-full flex justify-between items-center px-3  sm:h-16 h-auto">
+    <div className="bg-gray-100 w-full flex justify-between items-center px-3   h-auto">
     <SheetSide/>
       {/* Logo Section */}
       <div className=" flex items-center justify-center sm:justify-start w-full ">
