@@ -67,7 +67,7 @@ export default function Hero() {
 
                 
 
-                <Link href={'https://api.whatsapp.com/message/GUTC3CMZFWAAK1?autoload=1&app_absent=0'} className={buttonVariants({ variant: "outline" })}>Customer Support</Link>
+                <Link href={'https://whatsapp.com/message/GUTC3CMZFWAAK1?autoload=1&app_absent=0'} className={buttonVariants({ variant: "outline" })}>Customer Support</Link>
 
             </div>
 
