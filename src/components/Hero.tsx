@@ -6,6 +6,8 @@ import Link from "next/link";
 import { useState } from "react";
 import OrderForm from "./OrderForm";
 import { buttonVariants } from "@/components/ui/button";
+import { FaWhatsapp } from "react-icons/fa";
+
 
 
 export default function Hero() {
@@ -67,7 +69,7 @@ export default function Hero() {
 
                 
 
-                <Link href={'https://api.whatsapp.com/message/GUTC3CMZFWAAK1?autoload=1&app_absent=0'} className={buttonVariants({ variant: "outline" })}>Customer Support</Link>
+                <Link href={'https://api.whatsapp.com/message/GUTC3CMZFWAAK1?autoload=1&app_absent=0'} className={buttonVariants({ variant: "outline" })}><FaWhatsapp /> Customer Support</Link>
 
             </div>
 
